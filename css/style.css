@@ -22,23 +22,44 @@ header {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav {
-    width: 30%;
-    padding: 5px;
+    
+    
+    margin: 0;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
 .logo {
-    width: 70%;
+    height: 60px;
+   
     text-align: center;
     padding: 5px;
 }
 
 .menu {
-    width: 30%;
+    
     text-align: right;
-    padding: 5px;
+   
+   
 }
 
 
@@ -74,7 +95,7 @@ header {
 
  img {
     max-width: 100%;
-    border: 1px solid red;
+    
     
 }
 
@@ -152,19 +173,19 @@ footer {
 
 /* DEBUG DEBUG DEBUG  */
 
-.nav {
+/* .nav {
     
     border: solid 1px black;
     background-color: yellow;
-}
+} */
 
-.logo {
+/* .logo {
    
    border: solid 1px black;
    background-color: green;
-}
+} */
 
-.menu {
+/* .menu {
     
     border: solid 1px black;
     background-color: yellow;
@@ -172,12 +193,12 @@ footer {
 
 .container-head {
     background-color: aqua;
-}
+} */
 
-.info{
+/* .info{
     background-color: yellow;
     border: solid 1px black;
-}
+} */
 
 .social {
     background-color: green;
