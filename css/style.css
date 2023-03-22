@@ -18,25 +18,25 @@ header {
 
  .container-head {
     height: 70px;
-    width: 1200px;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     align-items: center;
 }
 
 .nav {
-    width: 20%;
+    width: 30%;
     padding: 5px;
 }
 
 .logo {
-    width: 60%;
+    width: 70%;
     text-align: center;
     padding: 5px;
 }
 
 .menu {
-    width: 20%;
+    width: 30%;
     text-align: right;
     padding: 5px;
 }
@@ -68,4 +68,25 @@ header {
 
 /* regole main */
 
+.container-main {
+    width: 70%;
+    
+    margin: 60px auto;
+    background-color:grey ;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+article {
+    border: 1px solid red;
+    width: calc(100%/3);
+    
+}
+
+article img {
+    max-width: 100%;
+}
 
