@@ -7,7 +7,7 @@
 }
 
 header {
-    height: 100px;
+    height: 80px;
     background-color: orange;
     
     display: flex;
@@ -41,7 +41,116 @@ header {
     padding: 5px;
 }
 
-/* debug header */
+
+
+
+/* regole main */
+
+
+
+.row {
+    display: flex;
+    gap: 15px;
+    width: 70%;
+    background-color:grey ;
+}
+
+.row1 {
+    margin: 60px auto 0 ;
+}
+
+.row2 {
+ margin: 40px auto 0;
+}
+
+
+.product-col {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3); 
+    
+}
+
+
+ img {
+    max-width: 100%;
+    border: 1px solid red;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-img {
+    
+   
+}
+
+.sconto {
+    background-color: red;
+    padding: 5px;
+}
+
+.sost {
+    background-color: green;
+    padding: 5px;
+}
+
+.row-info {
+    background-color: brown;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    
+}
+
+.info-prod {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+    column-gap: 15px;
+    background-color: yellow;
+    
+}
+
+
+
+
+/* regole footer */
+
+footer {
+    margin-top: 40px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.container-footer {
+    width: 70%;
+    height: 70px;
+    background-color: aqua;
+    display: flex;
+    
+    
+}
+
+.info{
+    width: 50%;
+}
+
+.social {
+    width: 50%;
+    text-align: right;
+}
+
+
+/* DEBUG DEBUG DEBUG  */
 
 .nav {
     
@@ -65,28 +174,12 @@ header {
     background-color: aqua;
 }
 
-
-/* regole main */
-
-.container-main {
-    width: 70%;
-    
-    margin: 60px auto;
-    background-color:grey ;
+.info{
+    background-color: yellow;
+    border: solid 1px black;
 }
 
-.row {
-    display: flex;
-    gap: 15px;
+.social {
+    background-color: green;
+    border: solid 1px black;
 }
-
-article {
-    border: 1px solid red;
-    width: calc(100%/3);
-    
-}
-
-article img {
-    max-width: 100%;
-}
-
