@@ -1,0 +1,71 @@
+/* regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    background-color: orange;
+    
+    display: flex;
+    align-items: center;
+    
+
+}
+
+ .container-head {
+    height: 70px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    width: 20%;
+    padding: 5px;
+}
+
+.logo {
+    width: 60%;
+    text-align: center;
+    padding: 5px;
+}
+
+.menu {
+    width: 20%;
+    text-align: right;
+    padding: 5px;
+}
+
+/* debug header */
+
+.nav {
+    
+    border: solid 1px black;
+    background-color: yellow;
+}
+
+.logo {
+   
+   border: solid 1px black;
+   background-color: green;
+}
+
+.menu {
+    
+    border: solid 1px black;
+    background-color: yellow;
+}
+
+.container-head {
+    background-color: aqua;
+}
+
+
+/* regole main */
+
+
